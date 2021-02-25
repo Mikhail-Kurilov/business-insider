@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'Lab-Black';
+  font-family: 'Lab-Regular';
+  src: local('Lab-Black'), url(./components/Fonts/LabGrotesque-Black.woff2) format('woff2');
+  src: local('Lab-Regular'), url(./components/Fonts/LabGrotesque-Regular.woff2) format('woff2');
+}

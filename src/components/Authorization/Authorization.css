@@ -1,0 +1,129 @@
+.buttonAuth {
+    font-family: Rubik;
+    font-weight: 500;
+    background: #FD722D;
+    width: 11.3rem;
+    height: 3.8rem;
+    color: white;
+    border-radius: 3rem;
+    border: none;
+    margin-top: 11.1rem;
+}
+
+.button{
+    font-family: Rubik;
+    font-weight: 500;
+    color: #FD722D;
+    border: none;
+    font-size: 13px;
+}
+
+.authWrapper {
+    display: flex;
+    justify-content: left;
+}
+
+.authorization {
+    width: 30.4rem;
+    height: 39.4rem;
+    border-radius: 0.8rem;
+    position: absolute;
+    margin-top: 10rem;
+    background: white;
+    text-align: center;
+}
+
+
+.enterWord {
+    margin-top: 3.6rem;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 33px;
+    margin-bottom: 2.4rem;
+}
+
+.authorizationContainer {
+    display: flex;
+    flex-direction: column;
+    width: 23.2rem;
+    margin-left: 3.6rem;
+}
+
+#login {
+    border: none;
+    border-bottom: 0.1rem solid #333333;
+    width: 100%;
+}
+
+#password {
+    margin-top: 2.4rem;
+    border: none;
+    border-bottom: 0.1rem solid #333333;
+}
+
+.checkBox {
+    margin-top: 2.4rem;
+    display: flex;
+    flex-direction: row;
+}
+
+#checkMark {
+    margin-left: 3.6rem;
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 0.4rem;
+}
+
+.rememberWord {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+    margin-left: 0.8rem;
+}
+
+.authorizationOff {
+    background: #333333;
+    opacity: 0.6;
+    width: 1920px;
+    height: 1080px;
+    position: absolute;
+}
+
+@media screen and (min-width: 1025px) {
+    .authorization {
+        margin-left: 60.8rem;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .authorization {
+        margin-left: 37.8rem;
+    }
+}
+
+@media screen and (min-width: 541px) and (max-width: 769px) {
+    .authorization {
+        margin-left: 22.8rem;
+    }
+}
+
+@media screen and (min-width: 415px) and (max-width: 541px) {
+    .authorization {
+        margin-left: 11.8rem;
+    }
+}
+
+@media screen and (min-width: 411px) and (max-width: 415px) {
+    .authorization {
+        margin-left: 4.8rem;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 411px) {
+    .authorization {
+        margin-left: 2rem;
+    }
+}

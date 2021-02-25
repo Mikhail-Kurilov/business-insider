@@ -1,0 +1,73 @@
+.body {
+    max-width: 100%;
+    width: 100vw;
+    justify-content: center;
+    height: 33.9rem;
+}
+
+.bodyWrapper {
+    display: flex;
+    max-width: 63.8rem;
+    justify-content: left;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.textBox {
+    display: flex;
+    flex-direction: column;
+}
+
+.attentionWords {
+    font-size: 41px;
+    font-weight: bolder;
+    max-width: 46.2rem;
+}
+
+.clearWords {
+    margin-top: 2.5rem;
+    font-size: 15px;
+    max-width: 49.3rem;
+}
+
+.buttonContainer {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.doItBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 18.465rem;
+}
+
+.textButtonAbove {
+    font-size: 9px;
+    letter-spacing: 5%;
+}
+
+.doButton {
+    margin-top: 1.2rem;
+    height: 4.486rem;
+    width: 18.465rem;
+    border-radius: 3rem;
+    border: 2px solid #FD722D;
+    background: none;
+    color: #FD722D;
+    cursor: pointer;
+}
+
+.getButton {
+    margin-top: 1.2rem;
+    height: 4.486rem;
+    width: 18.465rem;
+    border-radius: 3rem;
+    border: 2px solid #FD722D;
+    background: #FD722D;
+    color: white;
+    cursor: pointer;
+}
